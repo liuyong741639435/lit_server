@@ -1,0 +1,1 @@
+<view class="fellow"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['conversation',['$0'],[[['list','',index,'uid']]]]]]]}}" bindtap="__e"><image src="{{item.imgurl}}" mode></image><text>{{item.nickname}}</text></view></block></view>

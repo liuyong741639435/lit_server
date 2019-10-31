@@ -1,0 +1,38 @@
+
+.content{
+	width:100%;
+}
+.msglist{
+	width:100%
+}
+.msglist>.item{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.msglist>.item>.text{
+	width: 100%;
+}
+.msglist>.item>.text>:first-child{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:justify;
+	-webkit-justify-content:space-between;
+	    -ms-flex-pack:justify;
+	        justify-content:space-between;
+}
+.msglist image{
+	width:100rpx;height:100rpx;
+}
+.msglist .msg{
+	width:450rpx;
+	overflow: hidden;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+
